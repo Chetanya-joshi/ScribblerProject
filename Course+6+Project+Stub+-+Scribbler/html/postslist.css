@@ -1,0 +1,250 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+   
+    
+
+}
+
+body{
+    background-color: #ffeedd;
+}
+
+
+.container{
+    
+   
+   
+   width:100%;
+   
+   
+   
+    
+    height:100vh;
+}
+
+.header{
+    width:100%;
+    display:flex;
+    /* justify-content: ; */
+    
+   
+}
+
+.header .right-menu{
+    position: absolute;
+    right:0;
+    margin-top:10px;
+    
+}
+
+.header .left-menu{
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.left-menu h1{
+    font-family: 'Montez', cursive;
+    font-size:35px;
+    color:blue;
+    font-weight:100;
+   
+}
+
+.left-menu h4{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size:15px;
+    font-weight:100;
+}
+
+.left-menu a{
+    text-decoration: none;
+}
+
+.right-menu{
+    margin-right:20px;
+    
+}
+
+.right-menu .btn{
+    background-color: blue;
+    color:white;
+    padding:10px 20px;;
+    
+    font-size:15px;
+    cursor:pointer;
+    
+}
+
+.PostContainer{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.post{
+    
+    width:41%;
+    height:140px;
+    margin-top:30px;
+    background-color: white;
+    
+    border-radius:20px;
+    box-shadow: 0 4px 10px 0 rgb(17 4 63 / 20%), 0 4px 20px 0 rgb(79 19 97 / 19%);
+    
+   
+}
+
+.post:hover{
+    box-shadow: 0 14px 20px 0px rgb(17 4 63 / 20%), 0 14px 20px 0px rgb(79 19 97 / 19%);
+}
+
+.box{
+
+    display:flex;
+    
+    align-items: center;
+    height:100%;
+    width:100%;
+   
+  
+    
+    
+}
+
+.box-left{
+    padding-right:10px;
+    
+   
+}
+
+.first .fa-trash{
+    font-size:15px;
+    margin-top:5px;
+    cursor:pointer;
+}
+
+.box-right{
+    display:flex;
+    flex-direction:column;
+    
+    height:100%;
+    background-color:#E8E8E8;
+    padding:0px 20px;
+    border-radius:0 20px 20px 0;
+    
+   
+}
+
+.box-right .first{
+    display:flex;
+    justify-content: space-between;
+    
+    font-family: 'Abel', sans-serif;
+    color: #818181;
+    font-size: 19px;
+    padding-top:10px;
+
+    
+}
+
+.box-right .first p{
+    
+   
+    font-size:20px;
+    font-family: 'Abel', sans-serif;
+    
+}
+
+.box-left p{
+    font-weight: bold;
+    color: #707070;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+.box-right .second p{
+    overflow: hidden;
+    font-family: 'Abel', sans-serif;
+    font-size:18px;
+    font-weight: 600;
+    color:rgb(0, 0, 0);
+    
+}
+
+
+.second{
+    height: 55px;
+    
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top:12px;
+}
+
+.third .fa-ellipsis{
+    color: #707070;
+    font-weight:bolder;
+    float:right;
+    font-size:20px;
+    cursor:pointer;
+
+    
+}
+
+.delete{
+    width:100%;
+    height:100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color:white;
+    position:absolute;
+    top:0;
+    
+}
+
+.delete .deletePopUp{
+    background-color:white;
+    
+    width:27%;
+    padding:20px;
+    text-align: center;
+    color:black;
+}
+
+.deletePopUp p{
+    font-size:18px;
+    padding-bottom:20px;
+}
+
+.deletePopUp .yes{
+    background-color:#4CAF50;
+    padding:10px 20px;
+    border:none;
+    color:white;
+   
+    font-size:13px;
+    letter-spacing: 1px;
+    cursor:pointer;
+    float:left;
+}
+
+.deletePopUp .no{
+    background-color:#c22;
+    padding:10px 20px;
+    border:none;
+    color:white;
+   
+    font-size:13px;
+    letter-spacing: 1px;
+    cursor:pointer;
+    float:right;
+}
+
+
+
+

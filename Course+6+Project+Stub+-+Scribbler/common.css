@@ -1,0 +1,121 @@
+.signup{
+    height:100vh;
+    width:100%;
+    background-color:rgba(0,0,0,0.7);
+    position:relative;
+    display:flex;
+    justify-content: center;
+    z-index:2;
+    position:absolute;
+    top:0;
+    display:none;
+}
+
+.modal{
+    background-color:white;
+    width:28%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+   position:absolute;
+    top:20%;
+    
+}
+
+.modal .start{
+    display:flex;
+
+}
+
+.start h3{
+    font-size:20px;
+    font-family:sans-serif;
+    font-weight: 400;
+    color:#555;
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction:column;
+}
+
+.form label{
+    margin-top:10px;
+    margin-bottom:10px;
+    display:block;
+    font-size:17px;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 1px;
+    font-weight:500;
+    color:black;
+}
+
+.form .input-text{
+    padding:10px;
+    border:none;
+    outline: none;
+    background-color: #f1f1f1;
+    display:block;
+    
+}
+
+.form .input-text:focus {
+    border:2px solid #555;
+  }
+
+.btn3{
+    padding:10px;
+    font-family:sans-serif;
+    background-color:#4CAF50;
+    color:white;
+    letter-spacing: 1px;
+    font-size:13px;
+    border:none;
+    margin:22px 0;
+    cursor:pointer;
+    display:block;
+    width:100%;
+}
+
+.fa-xmark{
+    color:#555;
+    font-weight:900;
+    font-size:20px;
+    cursor:pointer;
+}
+
+
+
+
+#ModalSign1{
+    height:100vh;
+    width:100%;
+    background-color:rgba(0,0,0,0.7);
+    position:relative;
+    display:flex;
+    justify-content: center;
+    z-index:3;
+    position:absolute;
+    top:0;
+    display:none;
+}
+
+.jumpsignup{
+    text-align: center;
+    font-size:12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+.jumpsignup1{
+    text-align: center;
+    font-size:12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:blue;
+    cursor:pointer;
+}
+

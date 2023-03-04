@@ -1,0 +1,266 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+   
+    
+
+}
+
+body{
+    background-color: white;
+}
+
+
+.container{
+    
+   
+   
+   width:100%;
+   
+   
+   
+    
+    height:100vh;
+}
+
+.header{
+    width:100%;
+    display:flex;
+    /* justify-content: ; */
+    
+   
+}
+
+.header .right-menu{
+    position: absolute;
+    right:0;
+    margin-top:10px;
+    
+}
+
+.header .left-menu{
+    margin-left:10px;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+.left-menu h1{
+    font-family: 'Montez', cursive;
+    font-size:35px;
+    color:blue;
+    font-weight:100;
+   
+}
+
+.left-menu a{
+    text-decoration:none;
+}
+
+.left-menu h4{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size:15px;
+    font-weight:100;
+}
+
+.right-menu{
+    margin-right:20px;
+    
+}
+
+.right-menu .btn{
+    background-color: blue;
+    color:white;
+    padding:10px 20px;;
+    
+    font-size:15px;
+    cursor:pointer;
+    
+}
+
+
+
+
+.allPosts{
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    width:100%;
+    text-align: center;
+}
+
+#Title{
+   width: 92%;
+   margin-top:25px;
+  
+  
+}
+
+#Title #titlePost{
+    width:100%;
+    text-align: center;
+    height:35px;
+    font-size:26px;
+    font-weight:bold;
+   font-family:Arial, Helvetica, sans-serif;
+   border:none;
+}
+
+
+#EditText{
+    display:flex;
+    margin-top:15px;
+    width:92%
+    
+}
+
+#EditText .left-text{
+    width:100%;
+   text-align: left;
+}
+
+#EditText .left-text span{
+    font-family:'Ubuntu Mono', cursive;
+    font-size:22px;
+}
+
+.editbtn{
+    display:flex;
+    width: 100%;
+    justify-content: right;
+}
+
+.editbtn button{
+    background-color:#ed2553;
+    padding:10px;
+    color:white;
+    border:none;
+    width:12%;
+    float:right;
+    outline:none;
+    box-shadow: 0 10px 20px -8px rgb(240 75 113);
+    cursor:pointer;
+}
+
+.fa-edit{
+    margin-left:5px;
+    font-weight: 900;
+    color:white;
+  
+}
+
+.fa-save{
+    margin-left:5px;
+    font-weight: 900;
+    color:white;
+}
+
+#text-area{
+    width:92%;
+    text-align:justify;
+    margin-top:10px;
+    border:none;
+}
+
+#likeBtn{
+    width:92%;
+    text-align: left;
+    margin-top:15px;
+   
+}
+
+#likeBtn span{
+    color: #666;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+}
+
+#likeBtn .like button{
+    background-color:#ed2553;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    outline:none;
+    font-weight:500;
+    box-shadow: 0 10px 20px -8px rgb(240 75 113);
+    cursor:pointer;
+    
+}
+
+.like button:hover{
+    transform: translateY(-3px);
+    transition: 0.6 ease;
+    -webkit-transition: 0.3s ease;
+}
+
+.like .fa-thumbs-up{
+    margin-right:5px;
+    font-size:15px;
+    font-weight:600;
+}
+
+.like{
+    margin-bottom:15px;
+}
+
+#commentSection{
+    width:92%;
+    text-align:left;
+    margin-top:15px;
+    
+}
+
+#comment{
+    width:100%;
+    margin-bottom: 10px;
+}
+
+#comment textarea{
+    width:75%;
+    height:65px;
+}
+
+.like1 .commentbtn{
+    background-color:#ed2553;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    outline:none;
+    font-weight:600;
+    font-size:14px;
+    
+}
+
+
+#showComment{
+   width:69%;
+   text-align:left;
+   background-color:#e2e4e6;
+  
+   margin-left:60px;
+  padding-top:20px;
+   display:none;
+   margin-top:25px;
+   padding-left:10px;
+   padding-right:10px;
+   
+
+}
+
+#showComment p{
+    background-color: white;
+    padding:15px 2px;
+    margin-top:5px 12px;
+    
+   
+}
+
+h2{
+    margin-left:60px;
+    margin-top:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}

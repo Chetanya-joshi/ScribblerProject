@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="common.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <div class="container">
+
+    <div class="header">
+
+        <div class="left-menu">
+            
+            <h1>ScriBBler</h1>
+            <h4>Explore, Imagine, Create</h4>
+
+        </div>
+
+
+        <div class="right-menu">
+
+            <button class="btn" onclick="SignUp()">Sign Up</button>
+
+            <button class="btn" onclick="SignIn()">Sign In</button>
+
+        </div>
+
+    </div>
+
+
+    <div class="body-text">
+
+        <button class="btn1" onclick="AllPostPage()">All Post</button>
+        <button class="btn1" onclick="createPostfunction()">Create Post</button>
+        
+
+    </div>
+
+
+    </div>
+
+<!-- SignUp popup start -->
+    <div class="signup" id="ModalSign">
+
+        <div class="modal">
+
+            <div class="start">
+             <h3>Get Started</h3>
+            <a href=""> <i class="fa-solid fa-xmark" onclick="close()"></i> </a>  
+            </div> 
+
+            <hr>
+
+            <form class="form">
+
+                <label for="name">Name</label>
+                <input type="text" placeholder="Enter your name" name="name" class ="input-text" required>
+
+                <label for="username">Username</label>
+                <input type="text" placeholder="Enter your Username" name="username" class ="input-text" required>
+
+
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter your Password" name="password" class ="input-text"  required>
+
+
+                <label for="confirm-password">Confirm-Password</label>
+                <input type="password" placeholder="Re-Enter your Password" name="confirmpassword" class ="input-text" required>
+
+                <button type="submit" class="btn3">Sign Up</button>
+
+            </form>
+
+        </div>
+
+
+    </div>
+
+
+<!-- Signup Pop end -->
+
+
+   <!-- Signin Pop start --> 
+
+    <div class="signin" id="ModalSign1">
+
+        <div class="modal">
+
+            <div class="start">
+             <h3>Welcome Back!</h3>
+            <a href=""> <i class="fa-solid fa-xmark" ></i> </a>  
+            </div> 
+
+            <hr>
+
+            <form class="form">
+
+                <label for="username">Username</label>
+                <input type="text" placeholder="Enter your Username" name="username" class ="input-text" required>
+
+
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter your Password" name="password" class ="input-text"  required>
+
+                <button type="submit" class="btn3">Sign Up</button>
+
+               <span class="jumpsignup">Not a member? <span class="jumpsignup1" onclick="signFunction()">Sign Up</span></span>
+            </form>
+
+        </div>
+
+
+    </div>
+
+<!-- Signin popup end -->
+
+
+<!-- Create Post  -->
+
+    <div class="createPost" id="mm">
+
+
+    <div class="SubCreatePost">
+
+        <div class="postHeader">
+
+            <div class="headerText">Pen Your post</div>
+            <a href=""> <i class="fa-solid fa-xmark" onclick="close()"></i> </a> 
+
+        </div>
+
+        
+    <form>
+        
+        <div class="postInput">
+            <hr>
+            <label for="Title">Title</label>
+            <input type="text" name="Title" placeholder="Enter title of your post" required>
+
+
+            <label for="content">Content</label>
+            <textarea name="content" id="text" placeholder="Enter the contents of the post" required></textarea>
+
+            <input type="submit" value="Create" id="createbtn" >
+
+        </div>
+
+
+    </form>
+       
+    </div>
+
+
+    </div>
+
+
+<!-- Create Post end  -->
+    <script src="https://kit.fontawesome.com/0298cd1eb2.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+    <script src="common.js"></script>
+</body>
+</html>
